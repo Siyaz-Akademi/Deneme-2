@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #13132B; /* Arka plan rengi */
+    color: #fff; /* Metin rengi */
+    height: 60px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  }
+  
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    background-color: #1a1a2e;
+    padding: 10px 0;
+    top: 40px;
+    left: 0;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .navbar-links li .dropdown-icon {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .dropdown-item {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #4D4DFF;
+  }
+  
+  .dropdown-toggle:hover .dropdown-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .wallet-connect-btn {
+    background-color: transparent;
+    border: 1px solid #4D4DFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 150px;
+  }
+  
+  .wallet-connect-btn:hover {
+    background-color: #4D4DFF;
+    color: #fff;
+  }
